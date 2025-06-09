@@ -13,7 +13,9 @@
 2. Observe how **voltage** and **current** behave in each configuration.
 
 **Experiment Setup:**
-- **Circuit Description:**  
+- **Circuit Description:**
+  ![image](https://github.com/user-attachments/assets/4a3602d8-9faf-4f09-b096-1f98d45b817b)
+  
   Three resistors — **10kΩ**, **20kΩ**, and **30kΩ** — were connected in **series** with a **100V DC source** and an **ammeter**.
 
 **Observations:**
@@ -24,6 +26,26 @@
   - 10kΩ → **16.7V**
 
 > 💡 *Note: You can view voltage and current values in CircuitJS by clicking on each component.*
+
+### ⚙️ Topic:Voltage Divider circuit
+
+**Learning Objectives:**
+- the input voltage divides among the components in the circuit to manage the output voltage of the circuit by changing the values of resistors
+
+ **Experiment Setup:**  dc v= 12v 
+analog output from draw section and place between r1 and r2 by right click on analog ouptu click on "Show Voltage" and two resistors are connected as shown 
+ 
+
+  ![image](https://github.com/user-attachments/assets/f1ea478e-b692-4e27-978f-2110e621f9db)
+ 
+
+**Observations:**
+- power supply of 12 volt will be same if both resistor value is equal but in our setupt R1 is 3k  ( Vd=9v) and R2 is 1k ( Vd= 3v)
+**Circuit Description:**
+  
+![image](https://github.com/user-attachments/assets/77b91143-4665-4f8b-8912-b075dd304fbd)
+
+
 
 - Understood the concept of current flow through a resistor.
 - Simulated logic gates such as AND and OR using CircuitJS.
