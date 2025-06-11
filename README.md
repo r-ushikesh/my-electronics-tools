@@ -6,7 +6,7 @@
 - Started learning **CircuitJS** using the [Spoken Tutorial](https://spoken-tutorial.org/tutorial-search/?search_foss=CircuitJS&search_language) platform, as recommended by our HOD sir.
 - Learned how to create a basic **LED blinking circuit** using simulation.
 
-### ⚙️ Topic: Series and Parallel Resistance
+### ⚙️1) Topic: Series and Parallel Resistance
 
 **Learning Objectives:**
 1. Understand how to connect resistors in **series** and **parallel** circuits.
@@ -27,7 +27,7 @@
 
 > 💡 *Note: You can view voltage and current values in CircuitJS by clicking on each component.*
 
-### ⚙️ Topic:Voltage Divider circuit
+### ⚙️2) Topic:Voltage Divider circuit
 
 **Learning Objectives:**
 - the input voltage divides among the components in the circuit to manage the output voltage of the circuit by changing the values of resistors
@@ -41,9 +41,45 @@ analog output from draw section and place between r1 and r2 by right click on an
 
 **Observations:**
 - power supply of 12 volt will be same if both resistor value is equal but in our setupt R1 is 3k  ( Vd=9v) and R2 is 1k ( Vd= 3v)
-**Circuit Description:**
+
+  
+-**Circuit Description:**
   
 ![image](https://github.com/user-attachments/assets/77b91143-4665-4f8b-8912-b075dd304fbd)
+
+
+### ⚙️3)LCR Circuit
+**Learning Objectives:** -checks waveforms of I & V   for LCR Components 
+**Experiment Setup:**- add resisitor ,ac power supply from passive components add inductor & capacitor make circuit as per diagram ,click on each component each time and view in new scope option and observe the waveforms
+
+ **Circuit Description:**-
+![image](https://github.com/user-attachments/assets/b07195c7-a3ee-4141-8305-ee8918c6121d)
+
+**observations:**
+from the sinewaves we understand that :
+ - resistor have unity power factor
+ - capacitor have leading power factor 
+ - inductor have leading power factor
+
+###  ⚙️3)Wheatstone Bridge 
+**Learning objectives**
+- check how wheatstone bridge is used to measure unknown resisitance in the circuit
+- check the balance condition
+  
+**Experiment Setup:** draw circuit as per the circuit diagram
+  -![image](https://github.com/user-attachments/assets/f087ec40-7d42-476b-99aa-50f34fc9d19d)
+
+
+ **Circuit Description:**-
+ ![image](https://github.com/user-attachments/assets/974e1755-6c6b-4a6b-bc1d-3f7e15499e91)
+
+
+ **observations:**
+  - 1.if all resistors are of same value then it is balance condition and ammeter will not deflect(ckt js not have galvonometer ) i.s. Ratio of resisitance is P/Q = R/S
+-  2. if resistance inbalance then ammeter will deflects
+ -  3. we can measure unkown resistance by  formula 
+
+
 
 
 
