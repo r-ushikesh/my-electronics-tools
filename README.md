@@ -61,7 +61,7 @@ from the sinewaves we understand that :
  - capacitor have leading power factor 
  - inductor have leading power factor
 
-###  ⚙️3)Wheatstone Bridge 
+###  ⚙️4)Wheatstone Bridge 
 **Learning objectives**
 - check how wheatstone bridge is used to measure unknown resisitance in the circuit
 - check the balance condition
@@ -77,7 +77,59 @@ from the sinewaves we understand that :
  **observations:**
   - 1.if all resistors are of same value then it is balance condition and ammeter will not deflect(ckt js not have galvonometer ) i.s. Ratio of resisitance is P/Q = R/S
 -  2. if resistance inbalance then ammeter will deflects
- -  3. we can measure unkown resistance by  formula 
+ -  3. we can measure unkown resistance by  formula
+
+### ⚙️ 5) Silicon Diode Characteristics
+
+The process of applying an external voltage to a p-n junction of a diode is called **biasing** — which includes both **forward bias** and **reverse bias**.
+
+---
+
+#### 🔬 Experiment Setup:
+
+1. **Add Components**:
+   - Go to `Draw` → Add **Variable Voltage**.
+   - From `Edit`, set:
+     - **Min voltage** = 0V
+     - **Max voltage** = 2V
+   - Add a **Diode**, **Ammeter**, **Resistor (Ω)**, and **Ground**.
+
+2. **Wiring**:
+   - Connect the components to form a basic diode circuit.
+
+3. **Scope Setup**:
+   - Use the **right slider** to vary the voltage.
+   - Right-click the **diode** → `View in New Scope`.
+   - Enlarge the scope window.
+   - Click the **Settings icon** (bottom left).
+   - Select `X-Y Plots` → Check `Show V vs I` → Click **OK**.
+
+   - The graph will display:
+     - **Voltage (V)** on the X-axis (green line)
+     - **Current (I)** on the Y-axis (yellow line)
+
+   ![image](https://github.com/user-attachments/assets/1c6d5270-5f29-45ee-b725-256b32d09361)
+
+---
+
+#### 📊 Observations:
+
+- The **knee voltage** (threshold for forward conduction) is approximately **0.7V**, as seen on the ammeter.
+
+![image](https://github.com/user-attachments/assets/879ddd68-2d08-4493-8376-30e384954a62)
+
+---
+
+### 📘 Diode Characteristics Summary
+
+- **Forward bias**: Diode conducts current, allowing electricity to pass through.
+- **Reverse bias**: Diode blocks current, allowing only minimal leakage current to pass.
+
+---
+
+
+
+      
 
 
 
