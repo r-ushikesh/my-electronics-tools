@@ -141,7 +141,3 @@ The process of applying an external voltage to a p-n junction of a diode is call
 - Observed their working and waveform characteristics by varying simulation speed and current flow.
 
 
-## 🔹 Week 2 - EasyEDA
-- Designed a basic PCB for a 555 timer
-- Added a capacitor and resistor
-
